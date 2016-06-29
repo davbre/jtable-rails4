@@ -1,8 +1,6 @@
-# Jtable::Rails4
+# jtable-rails4
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jtable/rails4`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Integrate the jTable jQuery plugin into Rails 4 (+?) applications.
 
 ## Installation
 
@@ -22,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In application.js add the following line:
+
+    //= require jtable/jquery.jtable
+
+In application.css add a line which references one of the jTable theme css files, e.g. for the metro blue theme:
+
+    *= require jtable/themes/metro/blue/jtable
+
 
 ## Development
 
