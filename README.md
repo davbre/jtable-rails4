@@ -1,6 +1,6 @@
 # jtable-rails4
 
-Integrate the jTable jQuery plugin into Rails 4 (+?) applications.
+Integrate the [jTable jQuery plugin](http://jtable.org) into Rails 4 (+?) applications.
 
 ## Installation
 
